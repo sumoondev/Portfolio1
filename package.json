@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/sumoondev/Portfolio1#readme",
   "dependencies": {
+    "lil-gui": "^0.21.0",
     "three": "^0.186.1",
     "vite": "^8.3.4"
   }
