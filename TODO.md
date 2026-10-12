@@ -1,4 +1,8 @@
-# Todo List:
+## Todo List:
+
 [ ] - Make Terrain glb in blender
-[ ] - Find either basketball court texture or build a model
+[ ] - Make court in blender
 [ ] - Build basketball model
+[ ] - Research on game mechanism for basketball (main focus on shooting)
+[ ] - Research for physics in js
+[ ] - Figure out way to make the world feel endless 
