@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://b7g6khc46afjs"]
+
+[node name="Main" type="Node3D" unique_id=655836107]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=85240187]
+transform = Transform3D(0.43301275, -0.89951897, -0.058012735, 0.25000006, 0.058012653, 0.9665064, -0.86602545, -0.43301275, 0.25000006, 0, 3.6593165, -0.049999997)
+shadow_enabled = true
+
+[node name="Ground" type="CSGBox3D" parent="." unique_id=1625546888]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.5, -0.1, 2.5)
+size = Vector3(5, 0.2, 5)
+
+[node name="Wall" type="Node3D" parent="." unique_id=9773615]
+
+[node name="South" type="CSGBox3D" parent="Wall" unique_id=1544045746]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 1.2, -0.05)
+size = Vector3(3.2, 2.4, 0.1)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall/South" unique_id=1112154501]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.04000008, 0.3399999, -0.29)
+operation = 2
+size = Vector3(1.75, 1, 1)
+
+[node name="East" type="CSGBox3D" parent="Wall" unique_id=1987430326]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.05, 1.2, 1.4)
+size = Vector3(2.8, 2.4, 0.1)
+
+[node name="West" type="CSGBox3D" parent="Wall" unique_id=636850881]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 3.05, 1.2, 1.4)
+size = Vector3(2.8, 2.4, 0.1)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=482362785]
+transform = Transform3D(1, -1.6140925e-08, 1.0307118e-07, 1.614092e-08, 1, 4.4703487e-08, -1.0307118e-07, -4.4703487e-08, 1, 1.2499999, 0.93999994, 4.46)
+fov = 30.0
+
+[node name="Props" type="Node3D" parent="." unique_id=1113383168]
+
+[node name="Table" type="CSGBox3D" parent="Props" unique_id=1569139743]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.33000004, 0.375, 0.63)
+size = Vector3(0.595, 0.75, 1.215)
+
+[node name="Bookshelf" type="CSGBox3D" parent="Props" unique_id=1240789355]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.66, 0.465, 0.17)
+size = Vector3(0.62, 0.93, 0.26)
