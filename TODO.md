@@ -2,15 +2,11 @@
 
 ## In Progress
 - [ ] 3D Modeling in Blender
-  - [ ] Desk
-  - [ ] Bookshelf
+  - [ ] Laptop
+  - [ ] Monitor
 
 ## Backlog
 - [ ] 3D Modeling in Blender
-  - [ ] Desk
-  - [ ] Bookshelf
-  - [ ] Laptop
-  - [ ] Monitor
   - [ ] Mouse
   - [ ] Keyboard
   - [ ] Mobile
@@ -36,3 +32,6 @@
 
 ## Completed
 - [x] Initialize repository
+- [x] 3D Modeling in Blender
+  - [x] Desk
+  - [x] Bookshelf
