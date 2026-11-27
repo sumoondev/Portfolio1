@@ -2,7 +2,6 @@
 
 ## In Progress
 - [ ] 3D Modeling in Blender
-  - [ ] Laptop
   - [ ] Monitor
 
 ## Backlog
@@ -35,3 +34,4 @@
 - [x] 3D Modeling in Blender
   - [x] Desk
   - [x] Bookshelf
+  - [x] Laptop
