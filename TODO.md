@@ -3,6 +3,7 @@
 ## In Progress
 - [ ] 3D Modeling in Blender
   - [ ] Monitor
+  - [ ] Laptop Stand
 
 ## Backlog
 - [ ] 3D Modeling in Blender
